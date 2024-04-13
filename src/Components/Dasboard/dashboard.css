@@ -1,0 +1,28 @@
+.sidebarr li a:hover {
+  
+}
+
+.dash-sidebar-logo {
+
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 985px) {
+  .dash-sidebar-logo {
+    justify-content: left;
+  }
+
+  .dashboard-nav {
+    position: relative;
+    top: 8rem;
+  }
+  .dashboard-main {
+    position: relative;
+    top: 8rem;
+  }
+  .dashboard-sidebar {
+    position: fixed;
+    width: 100%;
+  }
+}
