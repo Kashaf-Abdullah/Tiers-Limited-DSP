@@ -13,18 +13,19 @@ const Intro = () => {
       className="intro"
       style={{
         backgroundColor: "var(--offwhite)",
-        borderRadius: "20px",
-        padding: "20px",
+        // borderRadius: "20px",
+        // padding: "20px",
       }}
     >
-      <Container
+      <Container fluid
         style={{
           backgroundImage: `url(${intro})`,
           textAlign: "center",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          borderRadius: "20px",
-          padding: "20px",
+          // borderRadius: "20px",
+          padding: "60px 20px",
+          height:"100%"
         }}
       >
         <Row>

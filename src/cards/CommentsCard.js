@@ -5,7 +5,7 @@ const CommentsCard = () => {
   return (
     <Container>
       <blockquote class="quote-box">
-        <p className="quotation-mark" style={{ color: "var(--darkblue)" }}>
+        <p className="quotation-mark" style={{ color: "var(--greenish_gray)" }}>
           “
         </p>
         <p
@@ -13,7 +13,7 @@ const CommentsCard = () => {
           style={{
             fontSize: "24px",
             fontWeight: "600",
-            color: "var(--darkblue)",
+            color: "var(--greenish_gray)",
           }}
         >
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
@@ -23,7 +23,7 @@ const CommentsCard = () => {
         <div className="blog-post-actions">
           <p
             className="blog-post-bottom pull-left"
-            style={{ fontSize: "22px", color: "var(--darkblue)" }}
+            style={{ fontSize: "22px", color: "var(--greenish_gray)" }}
           >
             <img
               src={user}

@@ -3,7 +3,7 @@ import PricingCard from "../cards/PricingCard";
 const Pricing2 = () => {
   return (
     <div className="container-fluid dsp-pricing-sec">
-      <h1 style={{ color: "var(--offwhite)" }}>SAVE 15% WHEN YOU PAY YEARLY</h1>
+      <h1 style={{ color: "var(--white)" }}>SAVE 15% WHEN YOU PAY YEARLY</h1>
       <p
         style={{ textAlign: "center", fontSize: "22px", color: "var(--white)" }}
       >
@@ -11,9 +11,9 @@ const Pricing2 = () => {
         rapidement chez Lordhosting.
       </p>
       <div className="container dsp-pricing-con">
-        <PricingCard head="STARTER " price="$499 USD/monthly" pos="20px" />
-        <PricingCard head="PROFESSIONAL" price="$699 USD/monthly" />
-        <PricingCard head="ENTERPRISE" price="$999 USD/monthly" pos="20px" />
+        <PricingCard head="STAGING " price="$850 USD/Annualy" pos="20px" />
+        <PricingCard head="DESIGN" price="$850 USD/Annualy" />
+        <PricingCard head="STAGING & DESIGN " price="$850 USD/Annualy" pos="20px" />
       </div>
     </div>
   );

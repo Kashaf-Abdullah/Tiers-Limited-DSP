@@ -51,7 +51,7 @@ export default function ContactForm() {
               >
                 <FaPhone
                   style={{
-                    color: "var(--darkblue)",
+                    color: "var(--greenish_gray)",
                     fontSize: "1.7rem",
                     position: "relative",
                     bottom: "2px",
@@ -60,16 +60,18 @@ export default function ContactForm() {
               </div>
               <MDBTypography
                 tag="h3"
-                className="text-white"
+                className=""
                 style={{
                   fontSize: "32px",
-                  color: "var(--offwhite)",
+                  color: "var(--greenish_gray)",
                   fontWeight: "bold",
                 }}
               >
                 Contact Information
               </MDBTypography>
-              <p className="white-text">
+              <p className="" style={{
+                color:"var(--greenish_gray)"
+              }}>
                 We’d love to help you start exceeding your business goals!
               </p>
             </div>
@@ -80,7 +82,7 @@ export default function ContactForm() {
               >
                 <FaFacebook
                   style={{
-                    background: "var(--darkblue)",
+                    background: "var(--greenish_gray)",
                     color: "var(--white)",
                     margin: "9px",
                     fontSize: "33px",
@@ -91,7 +93,7 @@ export default function ContactForm() {
                 />
                 <FaInstagram
                   style={{
-                    background: "var(--darkblue)",
+                    background: "var(--greenish_gray)",
                     color: "var(--white)",
                     margin: "9px",
                     fontSize: "33px",
@@ -102,7 +104,7 @@ export default function ContactForm() {
                 />
                 <FaYoutube
                   style={{
-                    background: "var(--darkblue)",
+                    background: "var(--greenish_gray)",
                     color: "var(--white)",
                     margin: "9px",
                     fontSize: "33px",
@@ -114,7 +116,7 @@ export default function ContactForm() {
                 <br />
                 <FaPinterest
                   style={{
-                    background: "var(--darkblue)",
+                    background: "var(--greenish_gray)",
                     color: "var(--white)",
                     margin: "9px",
                     fontSize: "33px",
@@ -125,7 +127,7 @@ export default function ContactForm() {
                 />
                 <FaTwitter
                   style={{
-                    background: "var(--darkblue)",
+                    background: "var(--greenish_gray)",
                     color: "var(--white)",
                     margin: "9px",
                     fontSize: "33px",
@@ -136,7 +138,7 @@ export default function ContactForm() {
                 />
                 <FaLinkedin
                   style={{
-                    background: "var(--darkblue)",
+                    background: "var(--greenish_gray)",
                     color: "var(--white)",
                     margin: "9px",
                     fontSize: "33px",
@@ -152,14 +154,14 @@ export default function ContactForm() {
             <MDBCard
               className="card-custom pb-4"
               style={{
-                backgroundColor: "var(--offwhite)",
+                backgroundColor: "var(--greenish_gray)",
                 marginBottom: "3rem",
               }}
             >
               <MDBCardBody className="mt-0 mx-1">
                 <div className="text-center mb-3 pb-2 mt-3">
                   <MDBTypography
-                    style={{ color: "var(--darkblue)", fontWeight: "bold" }}
+                    style={{ color: "var(--white)", fontWeight: "bold" }}
                   >
                     CONTACT INFO
                   </MDBTypography>
@@ -168,7 +170,7 @@ export default function ContactForm() {
                 <form className="mb-0">
                   <MDBRow className="mb-4">
                     <MDBCol>
-                      <MDBInput label="First name" type="text" />
+                      <MDBInput label="First name" type="text" className="text-white"/>
                     </MDBCol>
                     <MDBCol>
                       <MDBInput label="Last name" type="text" />

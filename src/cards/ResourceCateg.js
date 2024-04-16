@@ -32,7 +32,7 @@ const ResourceCateg = ({ templates }) => {
                 style={{
                   fontSize: "1.7rem",
                   textAlign: "center",
-                  color: "var(--darkblue)",
+                  color: "var(--greenish_gray)",
                 }}
               >
                 {template.icon}

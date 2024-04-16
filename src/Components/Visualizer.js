@@ -29,7 +29,7 @@ const Visualizer = () => {
               fontSize: "2.5rem",
               fontWeight: "700",
               margin: "22px 0",
-              color: "var(--darkblue)",
+              color: "var(--greenish_gray)",
             }}
           >
             EXPLORE THE VISUALIZATION

@@ -15,7 +15,7 @@ const IntroSect = (props) => {
   return (
     <Col lg={12}>
       <div className="intro-content" style={{ margin: "6rem 0" }}>
-        <h1 className="headingg" style={{ color: "var(--darkblue)" }}>
+        <h1 className="headingg" style={{ color: "var(--white)" }}>
           {props.head1}{" "}
           <span style={{ color: "var(--white)" }}>{props.head2}</span>{" "}
         </h1>
@@ -33,7 +33,7 @@ const IntroSect = (props) => {
             className="buttonn"
             style={{
               backgroundColor: "var(--darkblue)",
-              color: "var(--white)",
+              color: "var(--greenish_gray)",
               fontSize: "15px",
               fontWeight: "800",
               border: "3px solid var(--darkblue)",
@@ -47,7 +47,7 @@ const IntroSect = (props) => {
               backgroundColor: "var(--white)",
               fontSize: "15px",
               fontWeight: "800",
-              color: "var(--lightbrown)",
+              color: "var(--greenish_gray)",
               border: "2px solid var(--white)",
             }}
           >
@@ -58,7 +58,7 @@ const IntroSect = (props) => {
           <FaFacebook
             style={{
               background: "var(--darkblue)",
-              color: "var(--white)",
+              color: "var(--greenish_gray)",
               margin: "2px",
               fontSize: "33px",
               borderRadius: "50%",
@@ -70,7 +70,7 @@ const IntroSect = (props) => {
           <FaInstagram
             style={{
               background: "var(--darkblue)",
-              color: "var(--white)",
+              color: "var(--greenish_gray)",
               margin: "2px",
               fontSize: "33px",
               borderRadius: "50%",
@@ -82,7 +82,7 @@ const IntroSect = (props) => {
           <FaYoutube
             style={{
               background: "var(--darkblue)",
-              color: "var(--white)",
+              color: "var(--greenish_gray)",
               margin: "2px",
               fontSize: "33px",
               borderRadius: "50%",
@@ -93,7 +93,7 @@ const IntroSect = (props) => {
           <FaPinterest
             style={{
               background: "var(--darkblue)",
-              color: "var(--white)",
+              color: "var(--greenish_gray)",
               margin: "2px",
               fontSize: "33px",
               borderRadius: "50%",
@@ -104,7 +104,7 @@ const IntroSect = (props) => {
           <FaTwitter
             style={{
               background: "var(--darkblue)",
-              color: "var(--white)",
+              color: "var(--greenish_gray)",
               margin: "2px",
               fontSize: "33px",
               borderRadius: "50%",
@@ -116,7 +116,7 @@ const IntroSect = (props) => {
           <FaLinkedin
             style={{
               background: "var(--darkblue)",
-              color: "var(--white)",
+              color: "var(--greenish_gray)",
               margin: "2px",
               fontSize: "33px",
               borderRadius: "50%",

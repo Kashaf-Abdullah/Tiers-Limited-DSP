@@ -29,13 +29,13 @@ const DesignerCard = (props) => {
             style={{
               fontSize: "3rem",
               fontWeight: "700",
-              color: "var(--darkblue)",
+              color: "var(--greenish_gray)",
             }}
           >
             {" "}
             Lorem ipsum dolor sit amet.
           </h2>
-          <p style={{ fontSize: "18px", color: "var(--grey)" }}>
+          <p style={{ fontSize: "18px", color: "var(--lightbrown)" }}>
             Wendy Woloshchuk revolutionized Details Full Service Interiors by
             integrating DPS, which significantly improved efficiency,
             professionalism, and client engagement in her interior design
@@ -46,7 +46,7 @@ const DesignerCard = (props) => {
           <button
             className="buttonn designercard-btn"
             style={{
-              backgroundColor: "var(--darkblue)",
+              backgroundColor: "var(--greenish_gray)",
               color: "var(--white)",
               fontSize: "15px",
               fontWeight: "800",

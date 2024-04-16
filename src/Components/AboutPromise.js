@@ -20,10 +20,11 @@ const AboutPromise = () => {
           <Card
             style={{
               textAlign: "center",
-              backgroundColor: "var(--offwhite)",
+              backgroundColor: "var(-white)",
               padding: "1rem",
               borderRadius: "20px",
               marginBottom: "1rem",
+              color:"var(--greenish_gray)"
             }}
           >
             <Card.Body>
@@ -33,7 +34,7 @@ const AboutPromise = () => {
                   fontSize: "33px",
 
                   fontWeight: "bold",
-                  color: "var(--darkblue)",
+                  color: "var(--greenish_gray)",
                 }}
               >
                 Privacy
@@ -50,10 +51,11 @@ const AboutPromise = () => {
           <Card
             style={{
               textAlign: "center",
-              backgroundColor: "var(--offwhite)",
+              backgroundColor: "var(--white)",
               padding: "1rem",
               borderRadius: "20px",
               marginBottom: "1rem",
+              color:"var(--greenish_gray)"
             }}
           >
             <Card.Body>
@@ -63,7 +65,7 @@ const AboutPromise = () => {
                   fontSize: "33px",
 
                   fontWeight: "bold",
-                  color: "var(--darkblue)",
+                  color: "var(--greenish_gray)",
                 }}
               >
                 Communicate
@@ -80,7 +82,7 @@ const AboutPromise = () => {
           <Card
             style={{
               textAlign: "center",
-              backgroundColor: "var(--darkblue)",
+              backgroundColor:"var(--greenish_gray)",
               padding: "1rem",
               borderRadius: "20px",
               marginBottom: "1rem",
@@ -93,7 +95,7 @@ const AboutPromise = () => {
                   fontSize: "33px",
 
                   fontWeight: "bold",
-                  color: "var(--offwhite)",
+                  color: "var(--white)",
                 }}
               >
                 PartnerShip
@@ -110,7 +112,7 @@ const AboutPromise = () => {
           <Card
             style={{
               textAlign: "center",
-              backgroundColor: "var(--offwhite)",
+              backgroundColor: "var(--white)",
               padding: "1rem",
               borderRadius: "20px",
               marginBottom: "1rem",
@@ -123,7 +125,7 @@ const AboutPromise = () => {
                   fontSize: "33px",
 
                   fontWeight: "bold",
-                  color: "var(--darkblue)",
+                  color: "var(--greenish_gray)"
                 }}
               >
                 Sucess

@@ -12,7 +12,7 @@ const FeaturesCard = ({ title, description, icon }) => {
           padding: "1rem",
           borderRadius: "20px",
           marginBottom: "1rem",
-          boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+          boxShadow: "var(--greenish_gray) 0px 5px 15px",
         }}
       >
         <Card.Body>
@@ -20,7 +20,7 @@ const FeaturesCard = ({ title, description, icon }) => {
             <div
               className="d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0"
               style={{
-                color: "var(--darkblue)",
+                color: "var(--greenish_gray)",
                 background: "white",
                 borderRadius: "50%",
                 padding: "8px",
@@ -38,7 +38,7 @@ const FeaturesCard = ({ title, description, icon }) => {
 
                   fontWeight: "bold",
                   textAlign: "left",
-                  color: "var(--darkblue)",
+                  color: "var(--greenish_gray)",
                 }}
               >
                 {title}

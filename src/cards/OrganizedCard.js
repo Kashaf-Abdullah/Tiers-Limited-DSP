@@ -4,13 +4,14 @@ import { FaCircle } from "react-icons/fa";
 
 const OrganizedCard = (props) => {
   const tickStyle = {
-    color: "var(--darkblue)",
+    color: "var(--greenish_gray)",
     borderRadius: "50%",
     fontSize: "24px",
     position: "relative",
     top: "4px",
     marginRight: "6px",
-  };
+    backgroundColor:"var(--white)"
+     };
 
   const listStyle = {
     
@@ -27,7 +28,7 @@ const OrganizedCard = (props) => {
           style={{
             fontSize: "2.5rem",
             fontWeight: "700",
-            color: "var(--darkblue)",
+            color: "var(--greenish_gray)",
           }}
         >
           {props.head1}
@@ -36,13 +37,13 @@ const OrganizedCard = (props) => {
           style={{
             fontSize: "1.7rem",
             fontWeight: "600",
-            color: "var(--lightbrown)",
+            color: "var(--black)",
           }}
         >
           {props.head2}
         </h4>
 
-        <p style={{ fontSize: "15px", color: "var(--grey)", margin: "2rem 0" }}>
+        <p style={{ fontSize: "15px", color: "var(--greenish_gray)", margin: "2rem 0" }}>
           {props.text}{" "}
         </p>
         <ul
@@ -53,23 +54,23 @@ const OrganizedCard = (props) => {
             paddingLeft: "0rem",
           }}
         >
-          <li style={{ margin: "10px 0", color: "var(--grey)" }}>
+          <li style={{ margin: "10px 0", color: "var(--greenish_gray)" }}>
             <i class="fa fa-check-circle" style={tickStyle}></i> Post your Ad
             for Lorem ipsum dolor sit.
           </li>
-          <li style={{ margin: "10px 0", color: "var(--grey)" }}>
+          <li style={{ margin: "10px 0", color: "var(--greenish_gray)" }}>
             <i class="fa fa-check-circle" style={tickStyle}></i> Get Genuine
             offers Lorem ipsum dolor sit amet.
           </li>
-          <li style={{ margin: "10px 0", color: "var(--grey)" }}>
+          <li style={{ margin: "10px 0", color: "var(--greenish_gray)" }}>
             <i class="fa fa-check-circle" style={tickStyle}></i>Sell your car
             Fast Lorem ipsum dolor sit amet.
           </li>
-          <li style={{ margin: "10px 0", color: "var(--grey)" }}>
+          <li style={{ margin: "10px 0", color: "var(--greenish_gray)" }}>
             <i class="fa fa-check-circle" style={tickStyle}></i>Post your Ad for
             Lorem ipsum dolor sit.
           </li>
-          <li style={{ margin: "10px 0", color: "var(--grey)" }}>
+          <li style={{ margin: "10px 0", color: "var(--greenish_gray)" }}>
             <i class="fa fa-check-circle" style={tickStyle}></i>Get Genuine
             offers Lorem ipsum dolor sit.
           </li>
@@ -77,7 +78,7 @@ const OrganizedCard = (props) => {
         <button
           className="buttonn"
           style={{
-            backgroundColor: "var(--darkblue)",
+            backgroundColor: "var(--greenish_gray)",
             color: "var(--white)",
             fontSize: "15px",
             fontWeight: "800",

@@ -10,7 +10,6 @@ import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa"; // Impor
 
 import { Container } from "react-bootstrap";
 import Designer_Feedbackcard from "../cards/Designer_Feedbackcard.js";
-
 const Designer_Feedback = () => {
   const NextArrow = (props) => {
     const { onClick } = props;

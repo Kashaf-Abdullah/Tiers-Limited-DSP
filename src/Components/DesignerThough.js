@@ -8,9 +8,9 @@ import DesignerCard from "../cards/DesignerCard";
 const DesignerThough = () => {
   return (
     <>
-      <DesignerCard bcolor="#cdffcd" rr="row-reverse" image={t1}></DesignerCard>
-      <DesignerCard bcolor="#e6ffe6" rr="row" image={t2}></DesignerCard>
-      <DesignerCard bcolor="#cdffcd" rr="row-reverse" image={t3}></DesignerCard>
+      <DesignerCard bcolor="var(--lightgrey)" rr="row-reverse" image={t1}></DesignerCard>
+      <DesignerCard bcolor="var(--white)" rr="row" image={t2}></DesignerCard>
+      <DesignerCard bcolor="var(--lightgrey)" rr="row-reverse" image={t3}></DesignerCard>
     </>
   );
 };

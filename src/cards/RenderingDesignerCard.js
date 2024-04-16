@@ -19,7 +19,7 @@ const RenderingDesignerCard = (props) => {
 
                 objectFit: "cover",
                 objectPosition: "center right",
-                border: "2px solid var(--darkblue)",
+                border: "2px solid var(--greenish_gray)",
               }}
             />
           </Col>
@@ -39,7 +39,7 @@ const RenderingDesignerCard = (props) => {
               style={{
                 fontSize: "1.5rem",
                 fontWeight: "700",
-                color: "var(--darkblue)",
+                color: "var(--greenish_gray)",
               }}
             >
               Build high end marketing content
@@ -55,7 +55,7 @@ const RenderingDesignerCard = (props) => {
             <button
               className="buttonn designercard-btn"
               style={{
-                backgroundColor: "var(--darkblue)",
+                backgroundColor: "var(--greenish_gray)",
                 color: "var(--white)",
                 fontSize: "15px",
                 fontWeight: "800",

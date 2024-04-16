@@ -15,7 +15,7 @@ const PricingPage = () => {
       <Navbarr />
       {/* <ContactForm/> */}
       <PricingIntro />
-      <PricingPro />
+      {/* <PricingPro /> */}
       <Testimonials />
       <Discover />
       <FAQs />

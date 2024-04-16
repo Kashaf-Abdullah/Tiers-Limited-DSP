@@ -39,16 +39,10 @@ export default function FAQs() {
   };
 
   return (
-    <section className="App" id="faqs">
+    <section className="App" id="faqs" style={{backgroundColor:"var(--lightgrey)",padding:"3rem 1rem"}}>
       <h1
-        className="port-head"
-        style={{
-          textAlign: "center",
-          fontSize: "1.9rem",
-          fontWeight: "800",
-          color: "rgb(0,0,0)",
-          margin: "2rem 0",
-        }}
+        className="port-head heading"
+      
       >
         FAQs
       </h1>

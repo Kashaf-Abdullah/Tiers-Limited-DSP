@@ -5,13 +5,17 @@ const Integration = () => {
   return (
     <Container class="in-side-by-side">
       <h2 className="heading">
-        <span>DSP Features</span>
+        DSP Features
       </h2>
 
       <Row>
         <Col lg={6} md={6} sm={12} class="in-section">
           <div className="in-det">
-            <h4>Staging Professionals.</h4>
+            <h4
+            
+            style={{
+              color:"var(--greenish_gray)"
+            }}>Staging Professionals.</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto
               animi maxime sunt architecto! Lorem ipsum dolor sit amet
@@ -20,7 +24,10 @@ const Integration = () => {
           </div>
 
           <div className="in-det">
-            <h4>Design Professionals.</h4>
+            <h4
+            style={{
+              color:"var(--greenish_gray)"
+            }}>Design Professionals.</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
               error repellat officia placeat eveniet? Lorem ipsum dolor sit amet

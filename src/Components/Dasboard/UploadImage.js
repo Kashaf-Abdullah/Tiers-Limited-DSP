@@ -7,7 +7,7 @@ const ProfileImageUploader = () => {
     setSelectedFile(e.target.files[0]);
   };
   const dash_card = {
-    backgroundColor: "#D3B683",
+    backgroundColor: "var(--greenish_gray)",
     margin: "1rem 0",
     borderRadius: "12px",
   };

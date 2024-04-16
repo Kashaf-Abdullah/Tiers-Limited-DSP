@@ -6,7 +6,7 @@ const UploadCard = () => {
   const fileInputRef = useRef(null);
 
   const upload_card = {
-    backgroundColor: "var(--offwhite)",
+    backgroundColor: "var(--greenish_gray)",
     margin: "1rem 0",
     borderRadius: "12px",
     width: "17rem",
@@ -22,11 +22,13 @@ const UploadCard = () => {
   const icon_style = {
     fontSize: "2rem",
     marginBottom: "0.5rem",
+    color:"var(--white)"
   };
 
   const text_style = {
     fontSize: "1rem",
     fontWeight: "bold",
+    color:"var(--white)"
   };
 
   const handleUploadClick = () => {

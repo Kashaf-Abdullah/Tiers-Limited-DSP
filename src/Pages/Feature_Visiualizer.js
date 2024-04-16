@@ -18,7 +18,7 @@ const Feature_Visiualizer = () => {
       <RealisticRendering />
 
       <RenderingDesigner />
-      <Characteristic />
+      {/* <Characteristic /> */}
 
       <Resources />
 

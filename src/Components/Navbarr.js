@@ -30,20 +30,21 @@ function Navbarr() {
         width: "100%",
         top: 0,
         zIndex: 1000,
-        backgroundColor: "var(--offwhite)",
+        backgroundColor: "var(--lightgrey)",
         padding: "0.1rem 0",
         height: "7rem",
+        
       }}
     >
-      <Container style={{ backgroundColor: "var(--offwhite)" }}>
+      <Container style={{ backgroundColor: "var(--lightgrey)" }}>
         <Navbar.Brand as={Link} to="/" onClick={() => setExpanded(false)}>
           <img
             src={logo}
             alt=""
             style={{
               borderRadius: " 0rem 0rem 1rem 1rem",
-              width: "7.5rem",
-              height: "6.5rem",
+              width: "6.3rem",
+              height: "6.3rem",
               margin: "0 2rem",
               position: "relative",
               bottom: "3px",
@@ -141,7 +142,7 @@ function Navbarr() {
             <button
               className="buttonn"
               style={{
-                backgroundColor: "var(--darkblue)",
+                backgroundColor: "var(--greenish_gray)",
                 color: "var(--white)",
                 fontSize: "15px",
                 fontWeight: "800",
@@ -157,7 +158,7 @@ function Navbarr() {
                 fontSize: "15px",
                 fontWeight: "800",
                 color: "var(--lightbrown)",
-                border: "2px solid var(--darkblue)",
+                border: "2px solid var(--greenish_gray)",
               }}
             >
               Start free trial

@@ -106,7 +106,8 @@ const DashboardSideBar = ({ setSelectedMainComponent }) => {
                     hoveredItem === item.name
                       ? {
                           ...sidebar_nav_link,
-                          backgroundColor: "var(--offwhite)",
+                          backgroundColor: "var( --greenish_gray)",
+                          color:"var(--white)"
                         }
                       : sidebar_nav_link
                   }
@@ -146,7 +147,8 @@ const DashboardSideBar = ({ setSelectedMainComponent }) => {
                     hoveredItem === "Settings"
                       ? {
                           ...sidebar_nav_link,
-                          backgroundColor: "var(--offwhite)",
+                          backgroundColor: "var( --greenish_gray)",
+                          color:"var(--white)"
                         }
                       : sidebar_nav_link
                   }

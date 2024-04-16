@@ -12,15 +12,15 @@ const PricingPro = () => {
           <Card
             className="card-shadow border-2 mb-4"
             style={{
-              border: "2px solid var(--darkblue)",
-              backgroundColor: "var(--offwhite)",
+              border: "2px solid var(--greenish_gray)",
+              backgroundColor: "var(--white)",
             }}
           >
             <Card.Body className="p-4">
               <div className="d-flex align-items-center">
                 <h5
                   className="font-weight-medium mb-0"
-                  style={{ fontSize: "1.6rem", color: "var(--darkblue)" }}
+                  style={{ fontSize: "1.6rem", color: "var(--greenish_gray)" }}
                 >
                   Included on all plans{" "}
                 </h5>
@@ -29,7 +29,7 @@ const PricingPro = () => {
                 <Col lg={5} className="text-center">
                   <div
                     className="price-box my-3"
-                    style={{ color: "var(--darkblue)", fontWeight: "700" }}
+                    style={{ color: "var(--greenish_gray)", fontWeight: "700" }}
                   >
                     <sup>$</sup>
                     <span className="display-5">36</span>
@@ -37,7 +37,7 @@ const PricingPro = () => {
                     <a
                       href="#"
                       className="btn font-14 border-0 text-white p-3 btn-block mt-3"
-                      style={{ backgroundColor: "var(--darkblue)" }}
+                      style={{ backgroundColor: "var(--greenish_gray)" }}
                     >
                       CHOOSE PLAN
                     </a>
@@ -71,15 +71,15 @@ const PricingPro = () => {
           <Card
             className="card-shadow border-2 mb-4"
             style={{
-              border: "2px solid var(--darkblue)",
-              backgroundColor: "var(--offwhite)",
+              border: "2px solid var(--greenish_gray)",
+              backgroundColor: "var(--white)",
             }}
           >
             <Card.Body className="p-4">
               <div className="d-flex align-items-center">
                 <h5
                   className="font-weight-medium mb-0"
-                  style={{ fontSize: "1.6rem", color: "var(--darkblue)" }}
+                  style={{ fontSize: "1.6rem", color: "var(--greenish_gray)" }}
                 >
                   Included on all plans{" "}
                 </h5>
@@ -88,7 +88,7 @@ const PricingPro = () => {
                 <Col lg={5} className="text-center">
                   <div
                     className="price-box my-3"
-                    style={{ color: "var(--darkblue)", fontWeight: "700" }}
+                    style={{ color: "var(--greenish_gray)", fontWeight: "700" }}
                   >
                     <sup>$</sup>
                     <span className="display-5">30 </span>
@@ -96,7 +96,7 @@ const PricingPro = () => {
                     <a
                       href="#"
                       className="btn font-14 border-0 text-white p-3 btn-block mt-3"
-                      style={{ backgroundColor: "var(--darkblue)" }}
+                      style={{ backgroundColor: "var(--greenish_gray)" }}
                     >
                       CHOOSE PLAN
                     </a>

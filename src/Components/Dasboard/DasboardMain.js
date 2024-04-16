@@ -81,7 +81,7 @@ const DasboardMain = ({ component, i1, i2, i3, i4, i5 }) => {
             <button
               onClick={handleShowMore}
               style={{
-                backgroundColor: "var(--darkblue)",
+                backgroundColor: "var(--greenish_gray)",
                 color: "var(--white)",
                 fontSize: "15px",
                 fontWeight: "600",
@@ -96,11 +96,11 @@ const DasboardMain = ({ component, i1, i2, i3, i4, i5 }) => {
           </div>
         )}
         {showMore && (
-          <div style={{ textAlign: "center", width: "100%" }}>
+          <div style={{ textAlign: "center", width: "00%" }}>
             <button
               onClick={handleShowLess}
               style={{
-                backgroundColor: "var(--darkblue)",
+                backgroundColor: "var(--greenish_gray)",
                 color: "var(--white)",
                 fontSize: "15px",
                 fontWeight: "600",

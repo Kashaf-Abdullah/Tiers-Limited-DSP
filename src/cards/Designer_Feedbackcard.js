@@ -18,14 +18,14 @@ const Designer_Feedbackcard = (props) => {
       >
         <h5
           style={{
-            color: "var(--darkblue)",
+            color: "var(--greenish_gray)",
             fontWeight: "800",
             fontSize: "2.2rem",
           }}
         >
           {props.name}
         </h5>
-        <p style={{ color: "var(--grey)", margin: "5px", fontSize: "18px" }}>
+        <p style={{ color: "var(--lightbrown)", margin: "5px", fontSize: "18px" }}>
           {props.price}
         </p>
         <p

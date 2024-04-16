@@ -34,7 +34,7 @@ const Footer = () => {
                 <FaFacebook
                   style={{
                     background: "var(--darkblue)",
-                    color: "var(--white)",
+                    color: "var(--greenish_gray)",
                     margin: "2px",
                     fontSize: "33px",
                     borderRadius: "50%",
@@ -46,7 +46,7 @@ const Footer = () => {
                 <FaInstagram
                   style={{
                     background: "var(--darkblue)",
-                    color: "var(--white)",
+                    color: "var(--greenish_gray)",
                     margin: "2px",
                     fontSize: "33px",
                     borderRadius: "50%",
@@ -58,7 +58,7 @@ const Footer = () => {
                 <FaYoutube
                   style={{
                     background: "var(--darkblue)",
-                    color: "var(--white)",
+                    color: "var(--greenish_gray)",
                     margin: "2px",
                     fontSize: "33px",
                     borderRadius: "50%",
@@ -70,7 +70,7 @@ const Footer = () => {
                 <FaPinterest
                   style={{
                     background: "var(--darkblue)",
-                    color: "var(--white)",
+                    color: "var(--greenish_gray)",
                     margin: "2px",
                     fontSize: "33px",
                     borderRadius: "50%",
@@ -81,7 +81,7 @@ const Footer = () => {
                 <FaTwitter
                   style={{
                     background: "var(--darkblue)",
-                    color: "var(--white)",
+                    color: "var(--greenish_gray)",
                     margin: "2px",
                     fontSize: "33px",
                     borderRadius: "50%",
@@ -93,7 +93,7 @@ const Footer = () => {
                 <FaLinkedin
                   style={{
                     background: "var(--darkblue)",
-                    color: "var(--white)",
+                    color: "var(--greenish_gray)",
                     margin: "2px",
                     fontSize: "33px",
                     borderRadius: "50%",
@@ -106,7 +106,7 @@ const Footer = () => {
               <img src={footer_logo} alt="" style={{ width: "8rem" }} />
             </Col>
             <Col lg={2} md={2} sm={12}>
-              <h5 style={{ color: "var(--darkblue)" }}>
+              <h5 style={{  color: "var(--greenish_gray)", }}>
                 <b>Our Services</b>
               </h5>
               <ul
@@ -114,7 +114,7 @@ const Footer = () => {
                   fontSize: "0.9rem",
                   listStyle: "none",
                   paddingLeft: "0px",
-                  color: "var(--darkblue)",
+                  color: "var(--greenish_gray)",
                 }}
               >
                 <li>Staging</li>
@@ -123,7 +123,7 @@ const Footer = () => {
               </ul>
             </Col>
             <Col lg={2} md={2} sm={12}>
-              <h5 style={{ color: "var(--darkblue)" }}>
+              <h5 style={{  color: "var(--greenish_gray)",}}>
                 <b>PAGES</b>
               </h5>
               <ul
@@ -131,7 +131,7 @@ const Footer = () => {
                   fontSize: "0.9rem",
                   listStyle: "none",
                   paddingLeft: "0px",
-                  color: "var(--darkblue)",
+                  color: "var(--greenish_gray)" ,
                 }}
               >
                 <li>About</li>
@@ -146,7 +146,7 @@ const Footer = () => {
               </ul>
             </Col>
             <Col lg={2} md={2} sm={12}>
-              <h5 style={{ color: "var(--darkblue)" }}>
+              <h5 style={{ color: "var(--greenish_gray)", }}>
                 <b>GET HELP</b>
               </h5>
               <ul
@@ -154,7 +154,7 @@ const Footer = () => {
                   fontSize: "0.9rem",
                   listStyle: "none",
                   paddingLeft: "0px",
-                  color: "var(--darkblue)",
+                  color: "var(--greenish_gray)",
                 }}
               >
                 <li>Help Center</li>
@@ -169,7 +169,7 @@ const Footer = () => {
                 className="subs-form"
                 style={{
                   padding: "2rem",
-                  boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+                  boxShadow: "var(--greenish_gray) 0px 2px 8px 0px",
                 }}
               >
                 <h3
@@ -177,7 +177,7 @@ const Footer = () => {
                     textAlign: "center",
                     fontWeight: "700",
                     fontWeight: "700",
-                    color: "var(--darkblue)",
+                    color: "var(--greenish_gray)",
                   }}
                 >
                   <FaMailBulk style={{ fontSize: "2rem", margin: "auto" }} />
@@ -197,7 +197,7 @@ const Footer = () => {
                 <Form onSubmit={""}>
                   <Form.Group controlId="firstName">
                     <Form.Label
-                      style={{ color: "var(--darkblue)", fontWeight: "600" }}
+                      style={{  color: "var(--greenish_gray)", fontWeight: "600" }}
                     >
                       First Name
                     </Form.Label>
@@ -213,7 +213,7 @@ const Footer = () => {
 
                   <Form.Group controlId="lastName">
                     <Form.Label
-                      style={{ color: "var(--darkblue)", fontWeight: "600" }}
+                      style={{  color: "var(--greenish_gray)", fontWeight: "600" }}
                     >
                       Last Name
                     </Form.Label>
@@ -229,7 +229,7 @@ const Footer = () => {
 
                   <Form.Group controlId="email">
                     <Form.Label
-                      style={{ color: "var(--darkblue)", fontWeight: "600" }}
+                      style={{  color: "var(--greenish_gray)", fontWeight: "600" }}
                     >
                       Email
                     </Form.Label>
@@ -247,7 +247,7 @@ const Footer = () => {
                     type="submit"
                     style={{
                       margin: "1rem 0",
-                      backgroundColor: "var(--darkblue)",
+                       backgroundColor: "var(--greenish_gray)",
                       border: "1p solid var(--darkblue)",
                     }}
                   >
@@ -267,7 +267,7 @@ const Footer = () => {
           padding: "0.2rem 0",
         }}
       >
-        <span style={{ color: "var(--darkblue)" }}>COPYRIGHT DSP - </span>{" "}
+        <span style={{ color: "var(--greenish_gray)" }}>COPYRIGHT DSP - </span>{" "}
         <span style={{ color: "var(--lightbrown)" }}>
           TERMS & CONDITIONS PRIVACY POLICY
         </span>{" "}

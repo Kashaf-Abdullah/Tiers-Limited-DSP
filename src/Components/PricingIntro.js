@@ -4,7 +4,7 @@ import intro from "../assets/bc6.PNG";
 import { TabList, TabPanel, Tab, Tabs } from "react-tabs";
 import Pricing from "./Pricing";
 import Pricing2 from "./Pricing2";
-
+import d1 from "../assets/team3.jpg";
 const PricingIntro = () => {
   const [key, setKey] = useState("tab2");
 
@@ -35,7 +35,7 @@ const PricingIntro = () => {
               <h3
                 style={{
                   fontSize: "2rem",
-                  color: "var(--offwhite)",
+                  color: "var(--white)",
                   fontWeight: "700",
                 }}
               >
@@ -66,17 +66,36 @@ const PricingIntro = () => {
             </div>
             <Button
               style={{
-                backgroundColor: "var(--darkblue)",
+                backgroundColor: "var(--greenish_gray)",
                 color: "var(--white)",
-                width: "15rem",
+                width: "26rem",
                 margin: "auto",
                 padding: "20px",
-                fontSize: "19px",
-                border: "2px solid var(--darkblue)",
+                fontSize: "26px",
+                border: "2px solid var(--greenish_gray)",
               }}
             >
-              Live Consultation($25)
-            </Button>
+            Live Consultation - $29/hr
+            <br /> 
+           
+             $300/lifetime of membership
+             <br />
+            
+  <img
+              src={d1}
+              alt=""
+              className=""
+              style={{
+                width: "60px",
+                height: "60px",
+                borderRadius: "50%",
+
+                objectFit: "cover",
+                objectPosition: "center right",
+                border: "2px solid var(--greenish_gray)",
+              }}
+            />
+           </Button>
           </Col>
         </Row>
       </Container>
