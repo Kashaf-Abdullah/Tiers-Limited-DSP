@@ -12,6 +12,7 @@ import EventPage from './Pages/EventPage';
 import HPMKTPage from './Pages/HPMKTPage';
 import Feature_Visiualizer from './Pages/Feature_Visiualizer';
 import DashboardPage from './Pages/DashboardPage';
+import Questioner from './Pages/Questioner';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <Route path="/learn-events" element={<EventPage/>}/>
       <Route path="/hpmkt" element={<HPMKTPage/>}/>
       <Route path="/dashboard" element={<DashboardPage/>}/>
+      <Route path="/questioner" element={<Questioner/>}/>
       
  
 
